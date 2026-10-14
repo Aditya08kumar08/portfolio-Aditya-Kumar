@@ -6,7 +6,7 @@
 const LINKS = {
   resume_pdf: "https://drive.google.com/file/d/1ZS9dqhl6RWel6JhCZdTmb-7lc-W-j0eM/view?usp=drive_link",            // your UPDATED resume: paste the Google Drive share link here
   email: "mailto:adityakumar0212@gmail.com",                 // e.g. "mailto:you@example.com"
-  linkedin: "",              // your LinkedIn URL
+  linkedin: "https://www.linkedin.com/in/aditya-kumar-367688316",              // your LinkedIn URL
 
   mis:[["Read the report (PDF)","https://drive.google.com/file/d/1me0GcyKYgjdpsqQahpHWo1XCEFEDb7j9/view?usp=drive_link"],["Open the workbook","https://docs.google.com/spreadsheets/d/1td_s4X60Q27o0OA3OV0NArnRFIeuTvBH/edit?usp=drive_link&ouid=109741840185861321303&rtpof=true&sd=true"]], 
    cltv: [["Open the workbook", "https://docs.google.com/spreadsheets/d/1u4S26_BPHElUGdxvHgZunPyvostJmN6v/edit?usp=drive_link&ouid=109741840185861321303&rtpof=true&sd=true"]],
