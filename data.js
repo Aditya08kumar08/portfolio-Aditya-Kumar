@@ -5,12 +5,12 @@
    ============================================================ */
 const LINKS = {
   resume_pdf: "https://drive.google.com/file/d/1ZS9dqhl6RWel6JhCZdTmb-7lc-W-j0eM/view?usp=drive_link",            // your UPDATED resume: paste the Google Drive share link here
-  email: "adityakumar0212@gmail.com",                 // e.g. "mailto:you@example.com"
+  email: "mailto:adityakumar0212@gmail.com",                 // e.g. "mailto:you@example.com"
   linkedin: "",              // your LinkedIn URL
 
   mis:[], cltv:[], excel:[],
-  nile:[[https://drive.google.com/file/d/1KAgmqbJ7TuL3tO0DxGuNNGal2A3PlUSC/view?usp=drive_link]],
-  resume_site:[[https://aditya08kumar08.github.io/resume-website-mid-term-project/]], cafe_site:[[https://aditya08kumar08.github.io/cafe-website/]],
+  nile:[["View campaign (PDF)","https://drive.google.com/file/d/1KAgmqbJ7TuL3tO0DxGuNNGal2A3PlUSC/view?usp=drive_link"]],
+  resume_site:[["Live site","https://aditya08kumar08.github.io/resume-website-mid-term-project/"]], cafe_site:[["Live site","https://aditya08kumar08.github.io/cafe-website/"]],
   printing:[], lemon:[],
   well:[], osm:[], climate:[], biogas:[], compost:[], sme:[],
   rs50:[],
@@ -36,7 +36,7 @@ const P = [
  {id:"nile",t:"Digital Marketing",n:"Nile Apparels Social Media Campaign (Phobics launch)",
   p:"Plan a social media launch for a clothing brand. Note: Nile Apparels is a fictional brand used for this class project.",
   d:"Designed the campaign and created Instagram creatives.",
-  r:"Set a goal of at least 10% sales growth in the month after launch. Planned a three-phase rollout (2-week pre-launch, launch week with a YouTube premiere, post-launch retargeting) and tracked it with reach, engagement, conversion and retention KPIs."
+  r:"Set a goal of at least 10% sales growth in the month after launch. Planned a three-phase rollout (2-week pre-launch, launch week with a YouTube premiere, post-launch retargeting) and tracked it with reach, engagement, conversion and retention KPIs."},
  {id:"resume_site",t:"Web Development",n:"Resume Website",
   p:"Present my resume as a live, mobile-friendly website.",
   d:"Built with HTML, CSS and JavaScript and hosted on GitHub Pages.",
