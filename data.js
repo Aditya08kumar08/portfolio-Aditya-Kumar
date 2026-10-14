@@ -8,7 +8,8 @@ const LINKS = {
   email: "mailto:adityakumar0212@gmail.com",                 // e.g. "mailto:you@example.com"
   linkedin: "",              // your LinkedIn URL
 
-  mis:[["Read the report (PDF)","https://drive.google.com/file/d/1me0GcyKYgjdpsqQahpHWo1XCEFEDb7j9/view?usp=drive_link"],["Open the workbook","https://docs.google.com/spreadsheets/d/1td_s4X60Q27o0OA3OV0NArnRFIeuTvBH/edit?usp=drive_link&ouid=109741840185861321303&rtpof=true&sd=true"]], cltv:[],
+  mis:[["Read the report (PDF)","https://drive.google.com/file/d/1me0GcyKYgjdpsqQahpHWo1XCEFEDb7j9/view?usp=drive_link"],["Open the workbook","https://docs.google.com/spreadsheets/d/1td_s4X60Q27o0OA3OV0NArnRFIeuTvBH/edit?usp=drive_link&ouid=109741840185861321303&rtpof=true&sd=true"]], 
+   cltv: [["Open the workbook", "https://docs.google.com/spreadsheets/d/1u4S26_BPHElUGdxvHgZunPyvostJmN6v/edit?usp=drive_link&ouid=109741840185861321303&rtpof=true&sd=true"]],
      freshcut:[["View one-pager only (1 page)","https://drive.google.com/file/d/1y3YDIHStji_QVdGOihegWs-Y799ys0B5/view?usp=drive_link"],["One-pager and process note (PDF)","https://drive.google.com/file/d/1uW9B0FQXm-ut9Sn6JgzYKPAoF06xC_sA/view?usp=drive_link"]],
   nile:[["View campaign (PDF)","https://drive.google.com/file/d/1KAgmqbJ7TuL3tO0DxGuNNGal2A3PlUSC/view?usp=drive_link"]],
   resume_site:[["Live site","https://aditya08kumar08.github.io/resume-website-mid-term-project/"]], cafe_site:[["Live site","https://aditya08kumar08.github.io/cafe-website/"]],
@@ -37,6 +38,14 @@ const P = [
   p:"How much is a customer worth over their lifetime?",
   d:"Built a CLTV model in Excel with formulas.",
   r:"TODO: add one headline number from the workbook."},
+   {
+    id: "cltv",
+    t: ["Data and Analytics", "Business Strategy"],
+    n: "Customer Lifetime Value (CLTV) Analysis & Modeling",
+    p: "How can businesses accurately measure long-term customer value, retention rates, and acquisition efficiency to optimize marketing spend?",
+    d: "Built an advanced Customer Lifetime Value (CLTV) model and financial workbook in Excel. Implemented formulas for churn rate, retention rate, average order value, purchase frequency, and discount rates to project customer profitability over multi-year lifecycles.",
+    r: "Modelled customer value segmentation, enabling data-driven decisions on maximum allowable customer acquisition costs (CAC) and retention strategies."
+  },
    {
     id:"ibm",
     t:["Business Strategy","Research Writing","Sustainability"],
