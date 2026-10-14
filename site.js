@@ -1,6 +1,8 @@
 const $ = id => document.getElementById(id);
 const el = (tag, cls, txt) => { const e = document.createElement(tag); if (cls) e.className = cls; if (txt != null) e.textContent = txt; return e; };
 const page = document.body.dataset.page;
+const themesOf = x => Array.isArray(x.t) ? x.t : [x.t];
+const allThemes = () => [...new Set(P.flatMap(themesOf))];
 
 function chrome(){
   const pages = [["home","index.html","Home"],["projects","projects.html","Projects"],["resume","resume.html","Resume"]];
@@ -38,10 +40,12 @@ function field(dl, label, text){
 
 function card(x){
   const a = el("article");
-  a.appendChild(el("p", "theme", x.t));
+  if (x.img) { const im = el("img", "thumb"); im.src = x.img; im.alt = x.alt || x.n; im.loading = "lazy"; a.appendChild(im); }
+  a.appendChild(el("p", "theme", themesOf(x).join(" · ")));
   a.appendChild(el("h3", "", x.n));
   const dl = el("dl");
   field(dl, "Problem", x.p); field(dl, "What I did", x.d); field(dl, "Result", x.r);
+  if (x.tools) field(dl, "Tools", x.tools);
   a.appendChild(dl);
   const box = el("div", "links");
   (LINKS[x.id] || []).forEach(l => {
@@ -65,26 +69,28 @@ function topLinks(box){
 function home(){
   $("resume-slot").appendChild(resumeBox(false));
   topLinks($("top-links"));
-  const themes = [...new Set(P.map(x => x.t))];
+  const themes = allThemes();
   const g = $("themes");
+  const total = el("p", "count", P.length + " projects in total. A project can appear under more than one theme, but it is counted once.");
+  g.parentNode.insertBefore(total, g);
   themes.forEach(t => {
-    const n = P.filter(x => x.t === t).length;
+    const n = P.filter(x => themesOf(x).indexOf(t) > -1).length;
     const a = el("a", "theme-link"); a.href = "projects.html#" + encodeURIComponent(t);
     a.appendChild(el("strong", "", t)); a.appendChild(el("span", "", n + " project" + (n > 1 ? "s" : "")));
     g.appendChild(a);
   });
-  ["humanize", "sme", "lemon"].forEach(id => $("featured").appendChild(card(P.find(x => x.id === id))));
+  ["freshcut", "humanize", "sme"].forEach(id => $("featured").appendChild(card(P.find(x => x.id === id))));
 }
 
 function projects(){
-  const themes = ["All", ...new Set(P.map(x => x.t))];
+  const themes = ["All", ...allThemes()];
   let active = decodeURIComponent(location.hash.slice(1));
   if (themes.indexOf(active) < 0) active = "All";
   const nav = $("filters");
   function draw(){
     [...nav.children].forEach(k => k.setAttribute("aria-pressed", k.textContent === active));
     const grid = $("grid"); grid.textContent = "";
-    const list = P.filter(x => active === "All" || x.t === active);
+    const list = P.filter(x => active === "All" || themesOf(x).indexOf(active) > -1);
     list.forEach(x => grid.appendChild(card(x)));
     $("count").textContent = list.length + " project" + (list.length === 1 ? "" : "s") + (active === "All" ? "" : " in " + active);
   }
