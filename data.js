@@ -74,7 +74,7 @@ const P = [
   d:"Structured strengths, weaknesses, opportunities and threats, such as sensor dependency, delayed farmer ROI, pay-per-use pricing and data ownership conflicts.",
   r:"A 2-page SWOT with specific, actionable points under each heading."},
     {id:"impulsive",t:["Research Writing","Data and Analytics"],n:"Impulsive Food Ordering: A Behavioural Economics Experiment",
-  img:"impulsive-food-preview.jpg",alt:"Title slide of the Impulsive Food Ordering research deck",
+  alt:"Title slide of the Impulsive Food Ordering research deck",
   tools:"Randomized experiment, online survey, hypothesis testing",
   p:"Does impulsivity linked to attention-related behaviour, along with cues like limited-time discounts, make people order food online more often?",
   d:"Ran a randomized experiment with 60 respondents split into a control group (neutral situation) and a treatment group (distracted while studying and shown a flash discount on a food delivery app). Collected data through an online survey, demographic profiling, a scenario-based ordering task and an impulsivity assessment, then tested two hypotheses.",
