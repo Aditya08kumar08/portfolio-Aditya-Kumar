@@ -8,7 +8,7 @@ const LINKS = {
   email: "mailto:adityakumar0212@gmail.com",                 // e.g. "mailto:you@example.com"
   linkedin: "",              // your LinkedIn URL
 
-  mis:[], cltv:[], excel:[],
+  mis:[["Read the report (PDF)","https://drive.google.com/file/d/1me0GcyKYgjdpsqQahpHWo1XCEFEDb7j9/view?usp=drive_link"],["Open the workbook","https://docs.google.com/spreadsheets/d/1td_s4X60Q27o0OA3OV0NArnRFIeuTvBH/edit?usp=drive_link&ouid=109741840185861321303&rtpof=true&sd=true"]], cltv:[],
   nile:[["View campaign (PDF)","https://drive.google.com/file/d/1KAgmqbJ7TuL3tO0DxGuNNGal2A3PlUSC/view?usp=drive_link"]],
   resume_site:[["Live site","https://aditya08kumar08.github.io/resume-website-mid-term-project/"]], cafe_site:[["Live site","https://aditya08kumar08.github.io/cafe-website/"]],
   printing:[], lemon:[],
@@ -21,18 +21,14 @@ const LINKS = {
 
 /* To mark a line as "still to fill", start it with "TODO:" */
 const P = [
- {id:"mis",t:"Data and Analytics",n:"MIS and Digital Marketing Analysis",
-  p:"Which digital marketing channels and months drive results, based on MIS data.",
-  d:"Analysed the data in Excel and wrote up the findings as a report.",
-  r:"TODO: add the real % and Rs figures from your Excel sheet (replace ~X%, ~Y%, [Month X])."},
+{id:"mis",t:"Data and Analytics",n:"MIS and Digital Marketing Analysis (FY 2018-19)",
+ p:"A showroom-led business wanted to know where growth and profit were leaking: order execution, digital marketing or the sales funnel.",
+ d:"Completed the missing formulas across order booking, funnel and MIS sheets in Excel, grouped months into quarters, and analysed order-to-revenue conversion, digital marketing efficiency and order value. Wrote a report with recommendations.",
+ r:"Order-to-revenue conversion rose from 64% in Q2 to 91% in Q4. Only 19.3% of showroom meetings became orders. Cost per lead climbed from about Rs 555 to Rs 810, and the year ended with a net contribution loss of about Rs 151 lakh."},
  {id:"cltv",t:"Data and Analytics",n:"Customer Lifetime Value (CLTV) Workbook",
   p:"How much is a customer worth over their lifetime?",
   d:"Built a CLTV model in Excel with formulas.",
   r:"TODO: add one headline number from the workbook."},
- {id:"excel",t:"Data and Analytics",n:"Excel Assignments 1 and 2",
-  p:"Practice business problems solved with spreadsheets.",
-  d:"Used formulas and data handling in Excel.",
-  r:"TODO: add one line on what the assignments showed."},
  {id:"nile",t:"Digital Marketing",n:"Nile Apparels Social Media Campaign (Phobics launch)",
   p:"Plan a social media launch for a clothing brand. Note: Nile Apparels is a fictional brand used for this class project.",
   d:"Designed the campaign and created Instagram creatives.",
