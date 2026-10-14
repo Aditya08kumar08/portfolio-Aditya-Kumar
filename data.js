@@ -9,7 +9,7 @@ const LINKS = {
   linkedin: "",              // your LinkedIn URL
 
   mis:[["Read the report (PDF)","https://drive.google.com/file/d/1me0GcyKYgjdpsqQahpHWo1XCEFEDb7j9/view?usp=drive_link"],["Open the workbook","https://docs.google.com/spreadsheets/d/1td_s4X60Q27o0OA3OV0NArnRFIeuTvBH/edit?usp=drive_link&ouid=109741840185861321303&rtpof=true&sd=true"]], cltv:[],
-  freshcut:[["One-pager and process note (PDF)","Fresh_Cut_Design_Documentation.pdf"]],
+  freshcut:[["One-pager and process note (PDF)","https://drive.google.com/file/d/1uW9B0FQXm-ut9Sn6JgzYKPAoF06xC_sA/view?usp=drive_link"]],
   nile:[["View campaign (PDF)","https://drive.google.com/file/d/1KAgmqbJ7TuL3tO0DxGuNNGal2A3PlUSC/view?usp=drive_link"]],
   resume_site:[["Live site","https://aditya08kumar08.github.io/resume-website-mid-term-project/"]], cafe_site:[["Live site","https://aditya08kumar08.github.io/cafe-website/"]],
   printing:[], lemon:[],
