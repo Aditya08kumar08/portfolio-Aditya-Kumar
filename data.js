@@ -1,4 +1,3 @@
-
 /* ============================================================
    EDIT HERE: paste your Google Drive / GitHub links.
    Format:  project_id: [["Button text","https://link"], ...]
@@ -13,7 +12,6 @@ const LINKS = {
   nile:[],
   resume_site:[], cafe_site:[],
   printing:[], lemon:[],
-  debate:[], kalpana:[],
   well:[], osm:[], climate:[], biogas:[], compost:[], sme:[],
   rs50:[],
   humanize:[],
@@ -55,14 +53,6 @@ const P = [
   p:"Test a low-cost food and drink stand.",
   d:"Planned, priced and ran the stand, then reported the financials.",
   r:"65 cups served at an average of about Rs 8, so roughly Rs 520 in revenue."},
- {id:"debate",t:"Communication and Storytelling",n:"Village Debate Script",
-  p:"Argue a village-level issue in a clear, persuasive way.",
-  d:"Wrote the debate script.",
-  r:"TODO: add the topic and how it went."},
- {id:"kalpana",t:"Communication and Storytelling",n:"Kalpana Mahal Case Analysis",
-  p:"Analyse the Kalpana Mahal business case.",
-  d:"Structured the case and gave recommendations.",
-  r:"TODO: add your main recommendation."},
  {id:"well",t:"Sustainability",n:"Water Well Project",
   p:"Look at a community water source problem.",
   d:"TODO: add one or two sentences on your method.",
@@ -112,4 +102,3 @@ const P = [
   d:"Wrote a 5-page report on resistance mechanisms (enzymatic degradation, target modification, efflux pumps, biofilms) and future prospects.",
   r:"A structured report. TODO: change the author line from \"[Your Name]\" before publishing."}
 ];
-
