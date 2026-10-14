@@ -34,10 +34,7 @@ const P = [
  p:"A showroom-led business wanted to know where growth and profit were leaking: order execution, digital marketing or the sales funnel.",
  d:"Completed the missing formulas across order booking, funnel and MIS sheets in Excel, grouped months into quarters, and analysed order-to-revenue conversion, digital marketing efficiency and order value. Wrote a report with recommendations.",
  r:"Order-to-revenue conversion rose from 64% in Q2 to 91% in Q4. Only 19.3% of showroom meetings became orders. Cost per lead climbed from about Rs 555 to Rs 810, and the year ended with a net contribution loss of about Rs 151 lakh."},
- {id:"cltv",t:"Data and Analytics",n:"Customer Lifetime Value (CLTV) Workbook",
-  p:"How much is a customer worth over their lifetime?",
-  d:"Built a CLTV model in Excel with formulas.",
-  r:"TODO: add one headline number from the workbook."},
+ 
    {
     id: "cltv",
     t: ["Data and Analytics", "Business Strategy"],
