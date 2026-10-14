@@ -9,8 +9,8 @@ const LINKS = {
   linkedin: "",              // your LinkedIn URL
 
   mis:[], cltv:[], excel:[],
-  nile:[https://drive.google.com/file/d/1KAgmqbJ7TuL3tO0DxGuNNGal2A3PlUSC/view?usp=drive_link],
-  resume_site:[https://aditya08kumar08.github.io/resume-website-mid-term-project/], cafe_site:[https://aditya08kumar08.github.io/cafe-website/],
+  nile:[[https://drive.google.com/file/d/1KAgmqbJ7TuL3tO0DxGuNNGal2A3PlUSC/view?usp=drive_link]],
+  resume_site:[[https://aditya08kumar08.github.io/resume-website-mid-term-project/]], cafe_site:[[https://aditya08kumar08.github.io/cafe-website/]],
   printing:[], lemon:[],
   well:[], osm:[], climate:[], biogas:[], compost:[], sme:[],
   rs50:[],
@@ -36,7 +36,7 @@ const P = [
  {id:"nile",t:"Digital Marketing",n:"Nile Apparels Social Media Campaign (Phobics launch)",
   p:"Plan a social media launch for a clothing brand. Note: Nile Apparels is a fictional brand used for this class project.",
   d:"Designed the campaign and created Instagram creatives.",
-  r:"TODO: add reach or engagement targets you set."},
+  r:"Set a goal of at least 10% sales growth in the month after launch. Planned a three-phase rollout (2-week pre-launch, launch week with a YouTube premiere, post-launch retargeting) and tracked it with reach, engagement, conversion and retention KPIs."
  {id:"resume_site",t:"Web Development",n:"Resume Website",
   p:"Present my resume as a live, mobile-friendly website.",
   d:"Built with HTML, CSS and JavaScript and hosted on GitHub Pages.",
