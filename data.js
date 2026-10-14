@@ -18,7 +18,8 @@ const LINKS = {
    freshcut_npd:[["Read the NPD deck (PDF)","https://drive.google.com/file/d/11axb05yklWentjX5jgRN25m2kRa71UA6/view?usp=drive_link"],["Open the website","https://aditya08kumar08.github.io/fresh-cut/"]],
    sme:[],
   humanize:[],
-  pharmeasy:[], bhoomi:[],
+  pharmeasy:[["View canvas (PDF)","https://drive.google.com/file/d/1kNNnFCPyM6CTCxWhZlJEFq7NuwzMGgm1/view?usp=drive_link"]],
+bhoomi:[["View SWOT (PDF)","https://drive.google.com/file/d/1fj2hYDg7xHdGEFp-9rsnGNl_U2TG1VTy/view?usp=drive_link"]],
   groundwater:[]
 };
 
@@ -92,7 +93,18 @@ const P = [
   p:"Most people store old phones and laptops at home or throw them out with regular garbage, because they do not know where to recycle, find it inconvenient and do not trust recyclers. Could a doorstep pickup service with instant rewards fix this?",
   d:"Built a Lean Canvas for a doorstep e-waste collection startup, ran two rounds of customer interviews, and revised the canvas twice. Tested seven starting hypotheses against what customers said, wrote the final analysis and a personal reflection, scripted a pitch video and built an investor deck.",
   r:"Of seven initial hypotheses, three were validated, three were refined and one was rejected: environmental concern was not the main reason people recycle. Interviews pushed the model toward WhatsApp booking instead of an app, instant cash or UPI rewards instead of coupons, 24 to 48 hour pickup, certified recyclers with data-destruction assurance, and small offices as a higher-value segment than students."},
-
+ {id:"pharmeasy",t:"Business Strategy",n:"PharmEasy Business Model Canvas",
+  img:"pharmeasy-preview.jpg",alt:"PharmEasy Business Model Canvas slide",
+  tools:"Business Model Canvas (nine blocks)",
+  p:"How an online pharmacy creates and captures value.",
+  d:"Mapped all nine canvas blocks, from partners (pharmacies, labs, logistics) to the app-first channel and value proposition (home delivery, discounts, home lab tests).",
+  r:"A one-slide canvas covering the full model. Revenue comes from commissions on medicine sales, retail margins on OTC and wellness products, diagnostic booking fees, premium memberships, and delivery charges and ads."},
+ {id:"bhoomi",t:["Business Strategy","Sustainability"],n:"SWOT Analysis: BHOOMI (AgriTech Platform)",
+  img:"bhoomi-preview.jpg",alt:"SWOT infographic for an AgriTech sensor platform",
+  tools:"SWOT framework, infographic design",
+  p:"Assess an agri-advisory platform that combines sensor data with local crop calendars and soil profiles.",
+  d:"Structured strengths (localised advice, resource savings, farmer confidence), weaknesses (sensor dependency, calibration, delayed ROI), opportunities (pay-per-use sensors, PMFBY and Soil Health Card alignment, advisory marketplace, white-labelling) and threats (data ownership conflicts, extreme weather, technology fatigue).",
+  r:"A one-page SWOT infographic with four points each under Strengths and Opportunities and three each under Weaknesses and Threats."},
 {id:"freshcut_npd",t:["Entrepreneurship","Sustainability"],n:"Fresh Cut: Upcycled Ayurvedic Skincare Launch Plan (New Product Development)",
   img:"fresh-cut-npd-cover.jpg",alt:"Cover of the Fresh Cut new product development deck",
   tools:"Gamma, market sizing, survey and focus-group feedback",
