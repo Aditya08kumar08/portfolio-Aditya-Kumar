@@ -16,9 +16,11 @@ const LINKS = {
   medireach:[["Read the project report (PDF)","https://drive.google.com/file/d/1GmNxdvuXc2ye7hKRsUP-U1UKLzoARTUz/view?usp=drive_link"],["Open the financial model (Excel)","https://docs.google.com/spreadsheets/d/1X-jZjiqsWn7L0S6wzU5--pM0IvJMX0hz/edit?usp=drive_link&ouid=109741840185861321303&rtpof=true&sd=true"]],
    greenrego:[["Read the full report (PDF)","https://drive.google.com/file/d/1FfS4ehK4vjcuIQ_Hm-fGc0ARt-IVRCF4/view?usp=drive_link"]],
    freshcut_npd:[["Read the NPD deck (PDF)","https://drive.google.com/file/d/11axb05yklWentjX5jgRN25m2kRa71UA6/view?usp=drive_link"],["Open the website","https://aditya08kumar08.github.io/fresh-cut/"]],
-
+ibm: [["Read the report (PDF)","https://drive.google.com/file/d/1envVJGBtu8X0WdY4lUOgmsz5LwctNuIO/view?usp=drive_link"]],
   pharmeasy:[["View canvas (PDF)","https://drive.google.com/file/d/1kNNnFCPyM6CTCxWhZlJEFq7NuwzMGgm1/view?usp=drive_link"]],
+   nagpur_sme: [["View presentation (PDF)", "https://drive.google.com/file/d/1T8JhOdn61h9U_MTX9xGV6rfRc4Mvjq7I/view?usp=drive_link"]],
 bhoomi:[["View SWOT (PDF)","https://drive.google.com/file/d/1fj2hYDg7xHdGEFp-9rsnGNl_U2TG1VTy/view?usp=drive_link"]],
+   freshcut_site: [["Live site", "https://aditya08kumar08.github.io/fresh-cut/"], ["Repository", "https://github.com/Aditya08kumar08/fresh-cut"], ["Read process note (PDF)", "https://drive.google.com/file/d/1P7UwsfCWPIXC_JvxlTRP631xdwVXjmD1/view?usp=drive_link"]],
   groundwater:[["Read the report (PDF)","https://drive.google.com/file/d/1tX_GcCPaKWjZnS_mr2oT1yq3sf4YJ3bj/view?usp=drive_link"]]
 };
 
@@ -35,6 +37,30 @@ const P = [
   p:"How much is a customer worth over their lifetime?",
   d:"Built a CLTV model in Excel with formulas.",
   r:"TODO: add one headline number from the workbook."},
+   {
+    id:"ibm",
+    t:["Business Strategy","Research Writing","Sustainability"],
+    n:"Inclusive Business Model: Livelihood & Financial Support Study",
+    p:"How can inclusive business models address the deep-rooted financial insecurity and livelihood challenges faced by low-income informal sector workers in India?",
+    d:"Conducted primary research and detailed interviews across Bihar, Jharkhand, and West Bengal, examining informal workers' income streams, financial habits, and vulnerabilities. Designed a proposal for a Community Livelihood & Financial Support Centre offering vocational training, digital banking literacy, microfinance, and welfare scheme access.",
+    r:"Mapped critical household patterns (average monthly incomes of ₹7,000–₹9,800, heavy reliance on informal credit)[cite: 10, 12] and structured an actionable inclusive business framework to enhance economic resilience and financial independence."
+  },
+   {
+    id: "freshcut_site",
+    t: ["Web Development", "Design and Documentation"],
+    n: "Fresh Cut: Sustainable Ayurvedic Skincare Brand Website",
+    p: "How can a sustainable Ayurvedic skincare brand translate its business concept, market research, and visual identity into an immersive, desktop-first digital brand experience?",
+    d: "Developed a storytelling-driven website ('Sanskriti Se Sundarta Tak') for an eco-friendly Ayurvedic skincare brand[cite: 34]. Designed an information architecture and user journey spanning problem identification, market opportunity, brand solution, target audience, competitive advantage, and sustainability vision[cite: 34]. Implemented using modern web technologies with a nature-inspired color palette (deep green, beige, cream, and soft brown) and custom data visualization elements[cite: 35, 36].",
+    r: "Delivered a fully responsive, live website hosted on GitHub Pages that bridges cultural heritage with modern sustainable commerce[cite: 34, 36]."
+  },
+   {
+    id: "nagpur_sme",
+    t: ["Sustainability", "Business Strategy"],
+    n: "Sustainability Measures and ESG Strategy for a Puffed Rice Manufacturing SME",
+    p: "How can a resource-constrained puffed rice manufacturing micro-enterprise in Nagpur address supply chain inefficiencies, pest risks, worker heat stress, and plastic waste?",
+    d: "Conducted an ESG audit of a puffed rice manufacturing SME sourcing grain from West Bengal[cite: 14, 15, 16]. Analyzed five core operational challenges—poor inventory tracking, pest infestations, long-distance diesel transport, extreme worker heat stress, and excessive plastic packaging[cite: 20, 22, 24, 26, 28]—and designed practical, low-cost interventions including stock registers, airtight containers, expanded electric loaders, shop-floor ventilation upgrades, and biodegradable packaging alternatives[cite: 21, 23, 25, 27, 29, 30].",
+    r: "Demonstrated that small, practical operational changes can significantly reduce waste, lower carbon footprints, improve worker safety and morale, and build long-term economic resilience for small enterprises[cite: 31, 32]."
+  },
  {id:"nile",t:"Digital Marketing",n:"Nile Apparels Social Media Campaign (Phobics launch)",
   p:"Plan a social media launch for a clothing brand. Note: Nile Apparels is a fictional brand used for this class project.",
   d:"Designed the campaign and created Instagram creatives.",
