@@ -20,7 +20,7 @@ const LINKS = {
   humanize:[],
   pharmeasy:[["View canvas (PDF)","https://drive.google.com/file/d/1kNNnFCPyM6CTCxWhZlJEFq7NuwzMGgm1/view?usp=drive_link"]],
 bhoomi:[["View SWOT (PDF)","https://drive.google.com/file/d/1fj2hYDg7xHdGEFp-9rsnGNl_U2TG1VTy/view?usp=drive_link"]],
-  groundwater:[]
+  groundwater:[["Read the report (PDF)","https://drive.google.com/file/d/1tX_GcCPaKWjZnS_mr2oT1yq3sf4YJ3bj/view?usp=drive_link"]]
 };
 
 /* To mark a line as "still to fill", start it with "TODO:"
@@ -99,7 +99,13 @@ const P = [
   p:"How an online pharmacy creates and captures value.",
   d:"Mapped all nine canvas blocks, from partners (pharmacies, labs, logistics) to the app-first channel and value proposition (home delivery, discounts, home lab tests).",
   r:"A one-slide canvas covering the full model. Revenue comes from commissions on medicine sales, retail margins on OTC and wellness products, diagnostic booking fees, premium memberships, and delivery charges and ads."},
- {id:"bhoomi",t:["Business Strategy","Sustainability"],n:"SWOT Analysis: BHOOMI (AgriTech Platform)",
+  {id:"groundwater",t:["Research Writing","Sustainability"],n:"Groundwater Depletion and Strategies for Sustainable Water Use",
+  img:"groundwater-preview.jpg",alt:"First page of the groundwater depletion research report",
+  tools:"Secondary research, 3 peer-reviewed references",
+  p:"Falling water tables from over-extraction, especially for irrigation in India, and what can be done about it.",
+  d:"Wrote a 5-page research report with an abstract, introduction, causes, effects, strategies and a conclusion with future scope. Proposed the Smart Community Groundwater Recharge System (SCGRS), which combines rainwater-harvesting recharge pits, water-level sensors and a mobile app so communities can monitor groundwater.",
+  r:"A structured research report citing three peer-reviewed sources. The SCGRS idea is aimed at schools, housing societies, government buildings and rural communities."},
+   {id:"bhoomi",t:["Business Strategy","Sustainability"],n:"SWOT Analysis: BHOOMI (AgriTech Platform)",
   img:"bhoomi-preview.jpg",alt:"SWOT infographic for an AgriTech sensor platform",
   tools:"SWOT framework, infographic design",
   p:"Assess an agri-advisory platform that combines sensor data with local crop calendars and soil profiles.",
@@ -110,5 +116,5 @@ const P = [
   tools:"Gamma, market sizing, survey and focus-group feedback",
   p:"Natural skincare is often costly, and sustainable brands often compromise on results. Can food waste become affordable Ayurvedic skincare?",
   d:"Built a launch plan for Fresh Cut: market gap, four starter products, marketing mix, a four-stage testing plan and an 8-month roadmap.",
-  r:"A Rs 1 Cr first-year target (20,000 units at Rs 500), priced from Rs 249 to Rs 699."},
+  r:"A Rs 1 Cr first-year target (20,000 units at Rs 500), priced from Rs 249 to Rs 699."}
 ];
