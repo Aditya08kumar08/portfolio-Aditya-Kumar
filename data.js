@@ -38,7 +38,7 @@ const P = [
   d:"Designed the campaign and created Instagram creatives.",
   r:"Set a goal of at least 10% sales growth in the month after launch. Planned a three-phase rollout (2-week pre-launch, launch week with a YouTube premiere, post-launch retargeting) and tracked it with reach, engagement, conversion and retention KPIs."},
  {id:"freshcut",t:["Design and Documentation","Entrepreneurship"],n:"Fresh Cut: One-Page Brand Pitch and Process Note (Term 5)",
-  img:"assets/fresh-cut-onepager.jpg",alt:"Fresh Cut one-page pitch for a sustainable Ayurvedic skincare brand",
+  img:"fresh-cut-onepager.jpg",alt:"Fresh Cut one-page pitch for a sustainable Ayurvedic skincare brand",
   tools:"Canva, Figma",
   p:"Turn a startup idea, a sustainable Ayurvedic skincare brand, into a one-page pitch that works in a 2-second glance.",
   d:"Defined the brief and audience, built an olive, beige, brown and gold identity, and laid the page out top to bottom: problem, solution, audience, revenue streams, growth plan. Cut a dense first draft down with more whitespace and icons, then wrote a process note covering each step.",
