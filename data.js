@@ -15,6 +15,7 @@ const LINKS = {
   printing:[], lemon:[],impulsive:[["Read the research deck (PDF)","https://drive.google.com/file/d/12XGaCkVWuuOnrITLev-9fHCquayJwiry/view?usp=drive_link"]],
   medireach:[["Read the project report (PDF)","https://drive.google.com/file/d/1GmNxdvuXc2ye7hKRsUP-U1UKLzoARTUz/view?usp=drive_link"],["Open the financial model (Excel)","https://docs.google.com/spreadsheets/d/1X-jZjiqsWn7L0S6wzU5--pM0IvJMX0hz/edit?usp=drive_link&ouid=109741840185861321303&rtpof=true&sd=true"]],
    greenrego:[["Read the full report (PDF)","https://drive.google.com/file/d/1FfS4ehK4vjcuIQ_Hm-fGc0ARt-IVRCF4/view?usp=drive_link"]],
+   freshcut_npd:[["Read the NPD deck (PDF)","https://drive.google.com/file/d/11axb05yklWentjX5jgRN25m2kRa71UA6/view?usp=drive_link"],["Open the website","https://aditya08kumar08.github.io/fresh-cut/"]],
    sme:[],
   humanize:[],
   pharmeasy:[], bhoomi:[],
@@ -84,11 +85,18 @@ const P = [
  {id:"groundwater",t:["Research Writing","Sustainability"],n:"Groundwater Depletion and Sustainable Water Use",
   p:"Falling water tables from over-extraction, especially for irrigation in India.",
   d:"Wrote a 5-page report on causes, consequences and strategies, including an idea combining smart technology, rainwater harvesting and community participation.",
-  r:"A structured report with abstract, introduction and sub-topic discussion."}
+  r:"A structured report with abstract, introduction and sub-topic discussion."},
    {id:"greenrego",t:["Entrepreneurship","Sustainability"],n:"Green Rego: Doorstep E-Waste Recycling Startup (Term 4, Entrepreneurial Hypothesis Testing)",
   img:"green-rego-cover.jpg",alt:"Cover page of the Green Rego e-waste recycling startup report",
   tools:"Lean Canvas, customer interviews, hypothesis testing, pitch deck (Gamma)",
   p:"Most people store old phones and laptops at home or throw them out with regular garbage, because they do not know where to recycle, find it inconvenient and do not trust recyclers. Could a doorstep pickup service with instant rewards fix this?",
   d:"Built a Lean Canvas for a doorstep e-waste collection startup, ran two rounds of customer interviews, and revised the canvas twice. Tested seven starting hypotheses against what customers said, wrote the final analysis and a personal reflection, scripted a pitch video and built an investor deck.",
   r:"Of seven initial hypotheses, three were validated, three were refined and one was rejected: environmental concern was not the main reason people recycle. Interviews pushed the model toward WhatsApp booking instead of an app, instant cash or UPI rewards instead of coupons, 24 to 48 hour pickup, certified recyclers with data-destruction assurance, and small offices as a higher-value segment than students."},
+
+{id:"freshcut_npd",t:["Entrepreneurship","Sustainability"],n:"Fresh Cut: Upcycled Ayurvedic Skincare Launch Plan (New Product Development)",
+  img:"fresh-cut-npd-cover.jpg",alt:"Cover of the Fresh Cut new product development deck",
+  tools:"Gamma, market sizing, survey and focus-group feedback",
+  p:"Natural skincare is often costly, and sustainable brands often compromise on results. Can food waste become affordable Ayurvedic skincare?",
+  d:"Built a launch plan for Fresh Cut: market gap, four starter products, marketing mix, a four-stage testing plan and an 8-month roadmap.",
+  r:"A Rs 1 Cr first-year target (20,000 units at Rs 500), priced from Rs 249 to Rs 699."},
 ];
