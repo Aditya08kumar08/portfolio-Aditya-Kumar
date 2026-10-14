@@ -12,12 +12,11 @@ const LINKS = {
      freshcut:[["View one-pager only (1 page)","https://drive.google.com/file/d/1y3YDIHStji_QVdGOihegWs-Y799ys0B5/view?usp=drive_link"],["One-pager and process note (PDF)","https://drive.google.com/file/d/1uW9B0FQXm-ut9Sn6JgzYKPAoF06xC_sA/view?usp=drive_link"]],
   nile:[["View campaign (PDF)","https://drive.google.com/file/d/1KAgmqbJ7TuL3tO0DxGuNNGal2A3PlUSC/view?usp=drive_link"]],
   resume_site:[["Live site","https://aditya08kumar08.github.io/resume-website-mid-term-project/"]], cafe_site:[["Live site","https://aditya08kumar08.github.io/cafe-website/"]],
-  printing:[], lemon:[],
-  well:[], osm:[], climate:[], biogas:[], compost:[], sme:[],
-  rs50:[],
+  printing:[], lemon:[],impulsive:[["Read the research deck (PDF)","https://drive.google.com/file/d/12XGaCkVWuuOnrITLev-9fHCquayJwiry/view?usp=drive_link"]],
+   sme:[],
   humanize:[],
   pharmeasy:[], bhoomi:[],
-  groundwater:[], bacteria:[]
+  groundwater:[]
 };
 
 /* To mark a line as "still to fill", start it with "TODO:"
@@ -67,6 +66,12 @@ const P = [
   p:"Assess an agri-advisory platform that combines sensor data with local crop and soil profiles.",
   d:"Structured strengths, weaknesses, opportunities and threats, such as sensor dependency, delayed farmer ROI, pay-per-use pricing and data ownership conflicts.",
   r:"A 2-page SWOT with specific, actionable points under each heading."},
+    {id:"impulsive",t:["Research Writing","Data and Analytics"],n:"Impulsive Food Ordering: A Behavioural Economics Experiment",
+  img:"impulsive-food-preview.jpg",alt:"Title slide of the Impulsive Food Ordering research deck",
+  tools:"Randomized experiment, online survey, hypothesis testing",
+  p:"Does impulsivity linked to attention-related behaviour, along with cues like limited-time discounts, make people order food online more often?",
+  d:"Ran a randomized experiment with 60 respondents split into a control group (neutral situation) and a treatment group (distracted while studying and shown a flash discount on a food delivery app). Collected data through an online survey, demographic profiling, a scenario-based ordering task and an impulsivity assessment, then tested two hypotheses.",
+  r:"Both hypotheses were supported (p < 0.05): the treatment group chose to order food at a significantly higher rate, and people under urgency were less likely to delay, a sign of present bias. A balance table (all p > 0.05) showed the groups were comparable. Recommendation: platforms should add spending reminders or delay options."},
  {id:"groundwater",t:["Research Writing","Sustainability"],n:"Groundwater Depletion and Sustainable Water Use",
   p:"Falling water tables from over-extraction, especially for irrigation in India.",
   d:"Wrote a 5-page report on causes, consequences and strategies, including an idea combining smart technology, rainwater harvesting and community participation.",
