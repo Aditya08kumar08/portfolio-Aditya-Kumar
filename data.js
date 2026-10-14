@@ -4,13 +4,13 @@
    Leave a project as [] and it shows a greyed "Link coming soon".
    ============================================================ */
 const LINKS = {
-  resume_pdf: "",            // your UPDATED resume: paste the Google Drive share link here
-  email: "",                 // e.g. "mailto:you@example.com"
+  resume_pdf: "https://drive.google.com/file/d/1ZS9dqhl6RWel6JhCZdTmb-7lc-W-j0eM/view?usp=drive_link",            // your UPDATED resume: paste the Google Drive share link here
+  email: "adityakumar0212@gmail.com",                 // e.g. "mailto:you@example.com"
   linkedin: "",              // your LinkedIn URL
 
   mis:[], cltv:[], excel:[],
-  nile:[],
-  resume_site:[], cafe_site:[],
+  nile:[https://drive.google.com/file/d/1KAgmqbJ7TuL3tO0DxGuNNGal2A3PlUSC/view?usp=drive_link],
+  resume_site:[https://aditya08kumar08.github.io/resume-website-mid-term-project/], cafe_site:[https://aditya08kumar08.github.io/cafe-website/],
   printing:[], lemon:[],
   well:[], osm:[], climate:[], biogas:[], compost:[], sme:[],
   rs50:[],
