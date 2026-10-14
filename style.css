@@ -1,4 +1,3 @@
-
 :root{--bg:#EEF2F1;--panel:#FFFFFF;--ink:#0F2A26;--muted:#4D6560;--line:#CBD8D5;--accent:#0E6B5C;--accent-ink:#FFFFFF;--todo:#9A5B00;color-scheme:light}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0D1C19;--panel:#142925;--ink:#E6F1EE;--muted:#9DB6B0;--line:#27403B;--accent:#3FC1A8;--accent-ink:#06201B;--todo:#E8B35C;color-scheme:dark}}
 *{box-sizing:border-box}
@@ -56,3 +55,4 @@ h2.sec{font:700 1.6rem "Bricolage Grotesque",sans-serif;margin:40px 0 16px}
 .page-title{padding:40px 0 4px}
 .page-title h1{font-size:clamp(2rem,5vw,3rem)}
 @media (max-width:760px){.split{grid-template-columns:1fr}}
+.thumb{width:100%;height:220px;object-fit:cover;object-position:top;border-radius:8px;border:1px solid var(--line);background:var(--bg)}
