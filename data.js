@@ -24,7 +24,7 @@ ibm: [["Read the report (PDF)","https://drive.google.com/file/d/1envVJGBtu8X0WdY
 bhoomi:[["View SWOT (PDF)","https://drive.google.com/file/d/1fj2hYDg7xHdGEFp-9rsnGNl_U2TG1VTy/view?usp=drive_link"]],
    freshcut_site: [["Live site", "https://aditya08kumar08.github.io/fresh-cut/"], ["Repository", "https://github.com/Aditya08kumar08/fresh-cut"], ["Read process note (PDF)", "https://drive.google.com/file/d/1P7UwsfCWPIXC_JvxlTRP631xdwVXjmD1/view?usp=drive_link"]],
   groundwater:[["Read the report (PDF)","https://drive.google.com/file/d/1tX_GcCPaKWjZnS_mr2oT1yq3sf4YJ3bj/view?usp=drive_link"]],
-humanize:[["Dashboard screenshots (PDF)","DRIVE_LINK"],["Final report","DRIVE_LINK"],["Analysis & recommendations","DRIVE_LINK"],["Methodology","DRIVE_LINK"]]
+humanize:[["Dashboard screenshots (PDF)","https://drive.google.com/file/d/1ooEP3s8laR4h-l6VjOBBsMksFPTKvgOc/view?usp=drive_link"],["Final report","https://docs.google.com/document/d/1amRwDxEvmc8i-EO8ZDjYzBdATQ2Z1SDA/edit?usp=drive_link&ouid=109741840185861321303&rtpof=true&sd=true"],["Analysis & recommendations","https://docs.google.com/document/d/1nbxUbrrxMVQNWwfmuR4Je_jceS1wYxBO/edit?usp=drive_link&ouid=109741840185861321303&rtpof=true&sd=true"],["Methodology","https://docs.google.com/document/d/1pE33-IegA5UZuQl2PqDsZksXZf_beqmf/edit?usp=drive_link&ouid=109741840185861321303&rtpof=true&sd=true"]]
 };
 
 /* To mark a line as "still to fill", start it with "TODO:"
