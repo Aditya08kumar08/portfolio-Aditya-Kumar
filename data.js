@@ -12,7 +12,8 @@ const LINKS = {
    cltv: [["Open the workbook", "https://docs.google.com/spreadsheets/d/1u4S26_BPHElUGdxvHgZunPyvostJmN6v/edit?usp=drive_link&ouid=109741840185861321303&rtpof=true&sd=true"]],
      freshcut:[["View one-pager only (1 page)","https://drive.google.com/file/d/1y3YDIHStji_QVdGOihegWs-Y799ys0B5/view?usp=drive_link"],["One-pager and process note (PDF)","https://drive.google.com/file/d/1uW9B0FQXm-ut9Sn6JgzYKPAoF06xC_sA/view?usp=drive_link"]],
   nile:[["View campaign (PDF)","https://drive.google.com/file/d/1KAgmqbJ7TuL3tO0DxGuNNGal2A3PlUSC/view?usp=drive_link"]],
-  resume_site:[["Live site","https://aditya08kumar08.github.io/resume-website-mid-term-project/"]], cafe_site:[["Live site","https://aditya08kumar08.github.io/cafe-website/"]],
+  resume_site:[["Live site","https://aditya08kumar08.github.io/resume-website-mid-term-project/"]], 
+   cafe_site:[["Live site","https://aditya08kumar08.github.io/cafe-website/"]],
   impulsive:[["Read the research deck (PDF)","https://drive.google.com/file/d/12XGaCkVWuuOnrITLev-9fHCquayJwiry/view?usp=drive_link"]],
   medireach:[["Read the project report (PDF)","https://drive.google.com/file/d/1GmNxdvuXc2ye7hKRsUP-U1UKLzoARTUz/view?usp=drive_link"],["Open the financial model (Excel)","https://docs.google.com/spreadsheets/d/1X-jZjiqsWn7L0S6wzU5--pM0IvJMX0hz/edit?usp=drive_link&ouid=109741840185861321303&rtpof=true&sd=true"]],
    greenrego:[["Read the full report (PDF)","https://drive.google.com/file/d/1FfS4ehK4vjcuIQ_Hm-fGc0ARt-IVRCF4/view?usp=drive_link"]],
@@ -22,7 +23,8 @@ ibm: [["Read the report (PDF)","https://drive.google.com/file/d/1envVJGBtu8X0WdY
    nagpur_sme: [["View presentation (PDF)", "https://drive.google.com/file/d/1T8JhOdn61h9U_MTX9xGV6rfRc4Mvjq7I/view?usp=drive_link"]],
 bhoomi:[["View SWOT (PDF)","https://drive.google.com/file/d/1fj2hYDg7xHdGEFp-9rsnGNl_U2TG1VTy/view?usp=drive_link"]],
    freshcut_site: [["Live site", "https://aditya08kumar08.github.io/fresh-cut/"], ["Repository", "https://github.com/Aditya08kumar08/fresh-cut"], ["Read process note (PDF)", "https://drive.google.com/file/d/1P7UwsfCWPIXC_JvxlTRP631xdwVXjmD1/view?usp=drive_link"]],
-  groundwater:[["Read the report (PDF)","https://drive.google.com/file/d/1tX_GcCPaKWjZnS_mr2oT1yq3sf4YJ3bj/view?usp=drive_link"]]
+  groundwater:[["Read the report (PDF)","https://drive.google.com/file/d/1tX_GcCPaKWjZnS_mr2oT1yq3sf4YJ3bj/view?usp=drive_link"]],
+humanize:[["Dashboard screenshots (PDF)","DRIVE_LINK"],["Final report","DRIVE_LINK"],["Analysis & recommendations","DRIVE_LINK"],["Methodology","DRIVE_LINK"]]
 };
 
 /* To mark a line as "still to fill", start it with "TODO:"
@@ -93,11 +95,10 @@ const P = [
      d:"Worked in to build MediReach AI, a multilingual platform combining an AI symptom checker, teleconsultation, medicine delivery, lab report explanation and an offline mode. Contributed to the pitch deck and a five-sheet Excel model covering revenue projections, operating expenses, financial statements and investment analysis.",
      r:"Seed ask of Rs 50 lakhs. The projected revenue mix at Year 3 is 35% subscriptions, 25% pharmacy commission, 20% teleconsultation, 10% lab commission and 10% B2B partnerships. The model projects break-even in Year 2 and about Rs 2 Cr revenue in Year 3."},
 
- {id:"humanize",t:["Live Project and Analytics","Data and Analytics"],n:"Media Intelligence and PR Relevance Dashboard (Humanize Group Live Project, Term 6)",
-  p:"The Humanize Group pitched journalists from static contact lists, with no view of narrative angle, recency or data quality.",
-  d:"Built a 7-page Power BI dashboard over a journalist master sheet and an article sheet. Wrote the research methodology (6-month active-status rule), a user guide and a final analysis with recommendations.",
-  r:"114 journalists and 125 articles profiled. 71.9% (82) were active in the last 180 days, 18 were Tier-1 outreach targets, and database completeness scored 84.2%."},
- 
+  {id:"humanize",t:"Live Project and Analytics",n:"Media Intelligence and PR Relevance Dashboard (The Humanize Group)",
+  p:"The Humanize Group pitched journalists from static contact lists. It could not see what each journalist writes about, how recently they published, or whether the record was reliable.",
+  d:"Built a 7-page Power BI dashboard on a journalist sheet and an article sheet. It covers beat and angle analysis, one-click journalist profiles, relevance tiers and a data quality audit. Also wrote the research methodology and a user guide.",
+  r:"114 journalists profiled across 19 beats and sorted into High Priority, Manual Review and Relationship Building tiers, with 113 of 114 records verified."},
  
 {id:"impulsive",t:["Research Writing","Data and Analytics"],n:"Impulsive Food Ordering: A Behavioural Economics Experiment",
   img:"impulsive-food-preview.jpg",alt:"Title slide of the Impulsive Food Ordering research deck",
